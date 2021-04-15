@@ -31,3 +31,8 @@ body {
 .active {
     background-color: lightpink;
 }
+
+.repeat_word {
+    height: 1rem;
+    margin-bottom: 0.2rem;
+}
