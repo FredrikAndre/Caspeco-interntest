@@ -9,8 +9,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+/* Mobile first */
 .App {
-    display: flex;
+    display: flex; 
+    flex-direction: column;
 }
 
 .component {
@@ -35,4 +37,11 @@ body {
 .repeat_word {
     height: 1rem;
     margin-bottom: 0.2rem;
+}
+
+/* Media Queries*/
+@media screen and (min-width: 500px) {
+    .App {
+        flex-direction: row;
+    }
 }
